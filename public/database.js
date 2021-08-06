@@ -4,7 +4,7 @@ let budgetVersion;
 const request = indexedDB.open('budget', 1);
 
 request.onupgradeneeded = function (e) {
-  console.log('Upgrade needed in IndexDB');
+  console.log('IndexDB needs upgrade');
 
   const { oldVersion } = e;
   const newVersion = e.newVersion || db.version;
@@ -19,7 +19,7 @@ request.onupgradeneeded = function (e) {
 };
 
 request.onerror = function (e) {
-  console.log(`Woops! ${e.target.errorCode}`);
+  console.log(`uh-oh! ${e.target.errorCode}`);
 };
 
 function checkDatabase() {
