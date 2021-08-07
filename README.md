@@ -2,6 +2,9 @@
 
 Visit the Deployed Site Offered by Herokua:
 
+https://mysterious-fortress-23311.herokuapp.com/
+
+
 # Description
 
 This is an app that helps with tracking your expenses and budget your money coming in and out which you can use online and offline. 
@@ -17,6 +20,7 @@ User can visit the website using the url above and just simply start by how much
 - Mongoose
 - Javascript
 - Heroku
+- Service Worker
 - Express
 
 # Contact
@@ -26,16 +30,27 @@ Any questions or concerns about this app, please contact me:
 Github: https://github.com/kaivont85
 Email: kaivont@gmail.com
 
-# Application 
+# Screenshots 
 
-![screenshot]()
 
-![screenshot]()
+ADDED TWO PAYMENTS WHILE ONLINE
 
-![screenshot]()
+![screenshot](assets/addedbeforegoingoffline.png)
 
-![screenshot]()
+INITIAL TRANSACTION AFTER GOING OFFLINE
 
-![screenshot]()
+![screenshot](assets/initialaddaftergoingoffline.png)
 
-![screenshot]()
+2 TRANSACTIONS MADE WHILE BEING OFFLINE
+
+![screenshot](assets/2addwhilebeingoffline.png)
+
+CHANGES STAYED AFTER GOING BACK ONLINE AND REFRESHING
+
+![screenshot](assets/changesstayedafterbackonline.png)
+
+GIF OF EVERYTHING FROM START TO FINISH WORKING
+
+![screenshot](assets/everythingworks!.gif)
+
+
