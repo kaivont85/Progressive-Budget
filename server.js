@@ -15,9 +15,9 @@ app.use(express.json());
 
 app.use(express.static("public"));
 
-// let MONGODB_URI=process.env.MONGODB_URI || 
+let MONGODB_URI=process.env.MONGODB_URI || "mongodb:localhost/Progressive-Budget";
 
-mongoose.connect(process.env.MONGODB_URI || "mongodb://localhost/Progressive-Budget", {
+mongoose.connect(MONGODB_URI, {
   useNewUrlParser: true,
   useUnifiedTopology: true,
   useCreateIndex: true,
